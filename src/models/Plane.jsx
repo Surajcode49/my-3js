@@ -34,7 +34,7 @@ export function Plane({ isRotating, ...props }) {
 
   return (
     <mesh {...props} ref={ref}>
-      <primitive object={scene} />
+      {/* <primitive object={scene} /> */}
     </mesh>
   );
 }

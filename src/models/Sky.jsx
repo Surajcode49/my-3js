@@ -12,7 +12,7 @@ export function Sky() {
 
     const animate = () => {
       // Rotate the sky continuously
-      skyRef.current.rotation.x -= 0.009; // Rotate in the negative x-axis
+      skyRef.current.rotation.x -= 0.001; // Rotate in the negative x-axis
       // You can adjust the rotation speed by changing the value
 
       animationId = requestAnimationFrame(animate);
